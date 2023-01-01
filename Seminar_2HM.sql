@@ -7,7 +7,7 @@ DROP DATABASE IF EXISTS lesson_2_hm;
 CREATE DATABASE lesson_2_hm;
 USE lesson_2_hm;
 
-DROP TABLE IF EXISTS mobilephones;
+DROP TABLE IF EXISTS sales;
 CREATE TABLE sales
 (   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     order_date DATE NOT NULL,
