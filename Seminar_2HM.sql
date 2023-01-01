@@ -46,6 +46,7 @@ CLOSED - «Order is closed»;
 CANCELLED - «Order is cancelled» (if*,case).
 */
 
+DROP TABLE IF EXISTS orders;
 CREATE TABLE orders
 (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
